@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'Advent Pro';
+  font-weight: 400;
+  font-style: normal;
+  src: url('Advent-Pro-regular.eot');
+  src: url('Advent-Pro-regular.eot?#iefix') format('embedded-opentype'),
+       local('Advent Pro Regular'),
+       local('Advent-Pro-regular'),
+       url('Advent-Pro-regular.woff2') format('woff2'),
+       url('Advent-Pro-regular.woff') format('woff'),
+       url('Advent-Pro-regular.ttf') format('truetype'),
+       url('Advent-Pro-regular.svg#AdventPro') format('svg');
+}
+
+@font-face {
+  font-family: 'Dorsa';
+  font-weight: 400;
+  font-style: normal;
+  src: url('Dorsa-regular.eot');
+  src: url('Dorsa-regular.eot?#iefix') format('embedded-opentype'),
+       local('Dorsa'),
+       local('Dorsa-regular'),
+       url('Dorsa-regular.woff2') format('woff2'),
+       url('Dorsa-regular.woff') format('woff'),
+       url('Dorsa-regular.ttf') format('truetype'),
+       url('Dorsa-regular.svg#Dorsa') format('svg');
+}
+

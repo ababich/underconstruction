@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Under Construction</title>
+	<meta name="author" content="Alvaro Trigo Lopez" />
+	<meta name="description" content="fullPage fixed full-screen backgrounds." />
+	<meta name="keywords"  content="fullpage,jquery,demo,screen,fixed,fullscreen,backgrounds,full-screen" />
+	<meta name="Resource-type" content="Document" />
+
+  <link href='fonts/fonts.css' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" type="text/css" href="css/jquery.fullpage.css" />
+  <link rel="stylesheet" type="text/css" href="css/examples.css" />
+  <link rel="stylesheet" type="text/css" href="css/default-skin/default-skin.css">
+  <link rel="stylesheet" type="text/css" href="css/photoswipe.css">
+
+  <!-- Start of Woopra Code -->
+  <script>
+  (function(){
+          var t,i,e,n=window,o=document,a=arguments,s="script",r=["config","track","identify","visit","push","call","trackForm","trackClick"],c=function(){var t,i=this;for(i._e=[],t=0;r.length>t;t++)(function(t){i[t]=function(){return i._e.push([t].concat(Array.prototype.slice.call(arguments,0))),i}})(r[t])};for(n._w=n._w||{},t=0;a.length>t;t++)n._w[a[t]]=n[a[t]]=n[a[t]]||new c;i=o.createElement(s),i.async=1,i.src="//static.woopra.com/js/w.js",e=o.getElementsByTagName(s)[0],e.parentNode.insertBefore(i,e)
+  })("woopra");
+
+  woopra.config({
+      domain: 'underconstruction.com.ua'
+  });
+  woopra.track();
+  </script>
+  <!-- End of Woopra Code -->
+
+  <style>
+
+/*    .material-icons {
+      font-family: 'Material Icons';
+      font-weight: normal;
+      font-style: normal;
+      font-size: 24px;
+      display: inline-block;
+      line-height: 1;
+      text-transform: none;
+      letter-spacing: normal;
+      word-wrap: normal;
+      white-space: nowrap;
+      direction: ltr;
+
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+
+      -moz-osx-font-smoothing: grayscale;
+
+      font-feature-settings: 'liga';
+    }
+*/
+	/* Style for our header texts
+	* --------------------------------------- */
+	h1{
+		font-size: 6em;
+		font-family: 'Dorsa', sans-serif;
+		margin:0;
+		padding:0;
+    color: #fff;
+  }
+  h2 {
+    font-family: 'Dorsa', sans-serif;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white;
+    font-size: 6em;
+  }
+
+/*  h2 i.material-icons {
+    font-size: 1em;
+  }
+*/
+	/* Centered texts in each section
+	* --------------------------------------- */
+	.section{
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+
+    cursor: zoom-in;
+  }
+
+  .section .panel {
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 1.1em;
+    background-color: rgba(60, 60, 65, 0.5);
+    color: #fff;
+
+    padding: 16px;
+    width: auto;
+
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    right: 5%;
+
+    text-align: left;
+  }
+
+
+	/* Backgrounds will cover all the section
+	* --------------------------------------- */
+
+
+
+ 	/*Adding background for the slides
+   * --------------------------------------- */
+   #home_section {
+    /*background-color: #000;
+    background-image: repeating-linear-gradient(90deg, transparent, transparent 50px,
+          rgba(255, 127, 0, 0.25) 50px, rgba(255, 127, 0, 0.25) 56px, transparent 56px, transparent 63px,
+          rgba(255, 127, 0, 0.25) 63px, rgba(255, 127, 0, 0.25) 69px, transparent 69px, transparent 116px,
+          rgba(254, 205, 81, 0.25) 116px, rgba(254, 205, 81, 0.25) 166px),
+    repeating-linear-gradient(0deg, transparent, transparent 50px, rgba(255, 127, 0, 0.25) 50px,
+          rgba(255, 127, 0, 0.25) 56px, transparent 56px, transparent 63px, rgba(255, 127, 0, 0.25) 63px,
+          rgba(255, 127, 0, 0.25) 69px, transparent 69px, transparent 116px, rgba(254, 205, 81, 0.25) 116px,
+          rgba(254, 205, 81, 0.25) 166px),
+    repeating-linear-gradient(-45deg, transparent, transparent 5px, rgba(143, 77, 63, 0.25) 5px,
+          rgba(143, 77, 63, 0.25) 10px),
+    repeating-linear-gradient(45deg, transparent, transparent 5px, rgba(143, 77, 63, 0.25) 5px,
+          rgba(143, 77, 63, 0.25) 10px);
+*/
+    /*background-color: rgb(52, 214, 247);*/
+    background-image: url(img/bg.jpg);
+/*    background-image: repeating-linear-gradient(90deg, transparent, transparent 50px,
+          rgba(254, 205, 81, 0.7) 50px, rgba(254, 205, 81, 0.7) 56px, transparent 56px, transparent 63px,
+          rgba(254, 205, 81, 0.7) 63px, rgba(254, 205, 81, 0.7) 69px, transparent 69px, transparent 116px,
+          rgba(254, 205, 81, 0.7) 116px, rgba(254, 205, 81, 0.7) 166px),
+    repeating-linear-gradient(0deg, transparent, transparent 50px, rgba(254, 205, 81, 0.7) 50px,
+          rgba(254, 205, 81, 0.7) 56px, transparent 56px, transparent 63px, rgba(254, 205, 81, 0.7) 63px,
+          rgba(254, 205, 81, 0.7) 69px, transparent 69px, transparent 116px, rgba(254, 205, 81, 0.7) 116px,
+          rgba(254, 205, 81, 0.7) 166px),
+    repeating-linear-gradient(-45deg, transparent, transparent 5px, rgba(143, 77, 63, 0.3) 5px,
+          rgba(143, 77, 63, 0.3) 10px),
+    repeating-linear-gradient(45deg, transparent, transparent 5px, rgba(143, 77, 63, 0.3) 5px,
+          rgba(143, 77, 63, 0.3) 10px);
+*/}
+
+  #menu li {
+  display:inline-block;
+  color: #000;
+  background:#fff;
+  background: none;
+  padding: 0;
+  margin: 0;
+}
+#menu li.active{
+  background:#666;
+  background: rgba(60, 60, 65, 0.5);
+  color: #fff;
+}
+#menu li a{
+    font-size: 20px;
+    font-family: 'Advent Pro', sans-serif;
+
+    color: #fff;
+}
+#menu li.active:hover{
+  background-color: rgba(60, 60, 65, 0.5);
+}
+#menu li:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #000;
+}
+#menu li a,
+#menu li.active a{
+  padding: 10px;
+  display:block;
+}
+#menu li.active a{
+  color: #fff;
+}
+#menu{
+    background-color: rgba(60, 60, 65, 0.5);
+    color: #fff;
+
+    padding: 16px;
+    width: auto;
+
+    position: fixed;
+    top: 5%;
+    left: 5%;
+    right: 5%;
+
+    text-align: left;
+    font-size: 0;
+
+    z-index: 1000;
+    padding: 0;
+    margin:0;
+}
+
+.bulldog {
+  position: absolute;
+  bottom: 0;
+  padding: 0;
+  margin: 0 50%;
+  line-height: 0;
+  transform: translate(-50%, 0);
+}
+
+</style>
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+   <![endif]-->
+
+  <script type="text/javascript" src="js/jquery-3.0.0.js"></script>
+
+  <script type="text/javascript" src="js/jquery.fullpage.js"></script>
+  <script type="text/javascript" src="js/photoswipe.js"></script>
+  <script type="text/javascript" src="js/photoswipe-ui-default.js"></script>
+
+  <script type="text/javascript" src="js/assets.js"></script>
+  <script type="text/javascript" src="js/init.js"></script>
+
+</head>
+<body>
+
+  <ul id="menu">
+    <li data-menuanchor="home" class="active"><a href="#home">Under Construction</a></li>
+  </ul>
+
+  <div id="fullpage">
+    <div class="section" id="home_section" data-anchor="home">
+      <div class="panel">
+        <h1>Under Construction</h1>
+        Giorgio Liani</br>
+<!--         <hr />
+        e-mail: <a href = "mailto:giorgioliani@gmail.com">giorgioliani@gmail.com</a><br />
+        phone: +380953509814
+ -->      </div>
+
+      <div class = "bulldog"><img src = "img/bulldog.png" /></div>
+    </div>
+
+
+  </div>
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe.
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides.
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
