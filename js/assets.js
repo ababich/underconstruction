@@ -94,7 +94,33 @@ window.pages = {
       { file_prefix: '14', size: '3508x2480' },
       { file_prefix: '15', size: '3508x2480' }
     ]
-  }
+  },
+
+  'sib_nest': {
+    'menu_title': 'Siblings\' Nest',
+
+    'section_content': `
+      <h1>Siblings' Nest</h1>
+      The main thought was to lodge two kids in quite small room, and the same time to save their personal space.<br />
+      The room’s split into two separated zones for each child, with own bed and wardrobe. There is plenty of space for games and sports in the center of the room. Balcony was remodeled and became a study area.<br />
+      Blue color for wallcovering was picked not by chance. Whole area filled with sun light all the year round, so it makes room pretty warm through the day and blue color will cool it down a little bit.<br />
+      Chalk board wallcovering opens new horizons for creative thinking of the kids.
+    `,
+
+    images: [
+      { file_prefix: '05', size: '3840x2560' },
+      { file_prefix: '01', size: '3840x2560' },
+      { file_prefix: '02', size: '3840x2560' },
+      { file_prefix: '03', size: '3840x2560' },
+      { file_prefix: '04', size: '3840x2560' },
+      { file_prefix: '06', size: '3840x2560' },
+      { file_prefix: '07', size: '2560x3840' },
+      { file_prefix: '08', size: '2560x3840' },
+      { file_prefix: '09', size: '2560x3840' },
+      { file_prefix: '10', size: '3840x2560' },
+    ]
+  },
+
 
 
 
