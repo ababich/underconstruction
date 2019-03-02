@@ -74,7 +74,7 @@ window.pages = {
     'menu_title': '42 Pastera',
 
     'section_content': `
-      <h1>42 Pastera, Odessa, Ukraine</h1>
+      <h1>42 Pastera, Odesa, Ukraine</h1>
       The primary objective was to reconstruct the room, originally decorated in traditional style and at the same time to add some notes of modernity.<br />
       The client’s principal request was to preserve heirloom elements like book shelves and plaster moldings. They were also asked to leave the original hardwood floor and wallpaper during the renovation process. This was the starting point at the beginning of the project.
     `,
@@ -97,9 +97,9 @@ window.pages = {
     'menu_title': '33 Bunina',
 
     'section_content': `
-      <h1>33 Bunina, Odessa, Ukraine</h1>
-      Interior design and architectural rendering of an apartment space in Odessa, Ukraine.<br/>
-      This apartment has an area of 55 square meters, and located on the attic floor of a 4 storey building in the historic center of the city of Odessa. The living space decorated in a contemporary style with industrial elements. Brick masonry and natural wood flooring serve as a strong highlight on the background of pure white wall decoration.
+      <h1>33 Bunina, Odesa, Ukraine</h1>
+      Interior design and architectural rendering of an apartment space in Odesa, Ukraine.<br/>
+      This apartment has an area of 55 square meters, and located on the attic floor of a 4 storey building in the historic center of the city of Odesa. The living space decorated in a contemporary style with industrial elements. Brick masonry and natural wood flooring serve as a strong highlight on the background of pure white wall decoration.
     `,
 
     images: [
