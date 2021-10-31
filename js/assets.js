@@ -98,8 +98,8 @@ window.pages = {
 
     'section_content': `
       <h1>33 Bunina, Odesa, Ukraine</h1>
-      Interior design and architectural rendering of an apartment space in Odesa, Ukraine.<br/>
-      This apartment has an area of 55 square meters, and located on the attic floor of a 4 storey building in the historic center of the city of Odesa. The living space decorated in a contemporary style with industrial elements. Brick masonry and natural wood flooring serve as a strong highlight on the background of pure white wall decoration.
+      Interior design and an architectural rendering of apartment space in Odesa, Ukraine.<br/>
+      This apartment has an area of 55 square meters and is located on the attic floor of a 4 story building in the historic center of the city of Odesa. The living space is decorated in a contemporary style with industrial elements. Brick masonry and natural wood flooring serve as a strong highlight on the background of pure white wall decoration.
     `,
 
     images: [
