@@ -30,10 +30,10 @@ window.pages = {
 
     'section_content': `
       <h1>New York, Broadway and West 69<sup>th</sup> Street</h1>
-      This apartment is located in New York City, upper west side Manhattan, on intersection of 69th and Broadway, and occupy upper storey apt of 448 sqft where the significant part of this area is the terrace (160sqft). Living space is only 288 sqft. The entrance, kitchen, and living areas all flow from one area to another. This is a kind of tiny apartment so popular our days in crowded megapolis.<br/>
-      Walls are painted with Sherwin-Williams interior paint where a deep blue one is “Naval” SW 6244 color, from  Pottery Barn’s seasonal palette collection. It creates notable contrast with the floor-to-ceiling white cabinets of the kitchen, and warm-wood countertop and shelves as well as vermeil elements inherent to the space.<br/>
-      Walnut hardwood floor can be found all over the place. The Bathroom has a very modest size, but still has everything you need.<br/>
-      The terrace provides stunning views of the city skyline, perfectly suits for evening-parties and even business meetings.
+      This apartment is located in New York City, upper west side Manhattan, on the intersection of 69th and Broadway, and occupies an upper story apt of 448 sqft where the significant part of this area is the terrace (160sqft). The living space is only 288 sqft. The entrance, kitchen, and living areas all flow from one area to another. This is a kind of tiny apartment so popular these days in the crowded megapolis.<br/>
+      Walls are painted with Sherwin-Williams interior paint where a deep blue one is “Naval” SW 6244 color, from Pottery Barn’s seasonal palette collection. It creates notable contrast with the floor-to-ceiling white cabinets of the kitchen, and warm-wood countertop and shelves as well as vermeil elements inherent to the space.<br/>
+      Walnut hardwood floors can be found all over the place. The Bathroom has a very modest size, but still has everything you need.<br/>
+      The terrace provides stunning views of the city skyline, perfectly suited for evening parties and even business meetings.
     `,
 
     images: [
