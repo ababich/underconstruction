@@ -75,8 +75,8 @@ window.pages = {
 
     'section_content': `
       <h1>42 Pastera, Odesa, Ukraine</h1>
-      The primary objective was to reconstruct the room, originally decorated in traditional style and at the same time to add some notes of modernity.<br />
-      The client’s principal request was to preserve heirloom elements like book shelves and plaster moldings. They were also asked to leave the original hardwood floor and wallpaper during the renovation process. This was the starting point at the beginning of the project.
+      The primary objective was to reconstruct the room, originally decorated in traditional style, and at the same time to add some notes of modernity.<br />
+      The client’s principal request was to preserve heirloom elements like bookshelves and plaster moldings. They were also asked to leave the original hardwood floor and wallpaper during the renovation process. This was the starting point at the beginning of the project.
     `,
 
     images: [
